@@ -1,0 +1,12 @@
+package com.javaProject.ifstatement.examples;
+
+public class SwitchExtercisesRunner {
+
+	public static void main(String[] args) {
+		System.out.println(determineNameOfDay(1));
+	}
+	
+	public static String determineNameOfDay(int dayNumber) {
+		return "";
+	}
+}

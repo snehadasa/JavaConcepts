@@ -1,0 +1,21 @@
+package learning;
+
+import java.util.List;
+
+public class Triangle {
+	List<Integer> getLocalMaxima(List<Integer> list) {
+		List<Integer> localMaxima = new ArrayList<Integer>();
+		if (list == null || list.size() == 0 ) {
+			return localMaxima;
+		}
+		
+		return localMaxima;
+	}
+	
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		// 1,4,5,7,10,5,8
+	}
+
+}

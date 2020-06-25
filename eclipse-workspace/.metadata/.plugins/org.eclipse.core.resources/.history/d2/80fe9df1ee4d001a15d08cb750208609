@@ -1,0 +1,21 @@
+package com.javaProject.generics;
+
+import com.javaProject.generics.MyCustomList;
+
+public class GenericRunner {
+
+	public static void main(String[] args) {
+		MyCustomList<String> list = new MyCustomList<>();
+		list.addElement("element1");
+		list.addElement("element2");
+		
+		System.out.println(list);
+		
+		MyCustomList<Integer> list2 = new MyCustomList<>();
+		list2.addElement(Integer.valueOf(5));
+		list2.addElement(Integer.valueOf(4));
+		
+		System.out.println(list2);
+	}
+
+}

@@ -1,0 +1,53 @@
+class Task1 extends Thread {
+	public void run() {
+		System.out.print("\ntask1 Start");
+
+		for (int i = 101; i<=199; i++)
+			System.out.print(i + " ");
+		
+		System.out.print("\ntask1 Done");
+	}
+}
+
+class Task2 implements Runnable {
+
+	@Override
+	public void run() {
+		System.out.print("\ntask2 Start");
+
+		for (int i = 201; i<=299; i++)
+			System.out.print(i + " ");
+		
+		System.out.print("\ntask2 Done");		
+	}
+	
+}
+
+
+public class ThreadingBasics {
+
+	public static void main(String[] args) throws InterruptedException {
+		
+		System.out.print("\ntask1 Kicked Off");
+		Task1 task1 = new Task1();
+		task1.setPriority(1);
+		task1.start();
+		
+		System.out.print("\ntask2 Kicked Off");
+		Task2 task2 = new Task2();
+		Thread task2Thread = new Thread(task2);
+		task2Thread.setPriority(10);
+		task2Thread.start();
+		
+		task1.join();
+		task2Thread.join();
+		
+		System.out.print("\ntask3 Kicked Off");
+		for (int i = 301; i<=399; i++)
+			System.out.print(i + " ");
+		
+		System.out.print("\ntask3 Done");
+
+	}
+
+}

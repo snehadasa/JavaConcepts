@@ -1,0 +1,47 @@
+package learning;
+
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
+
+public class Maximum {
+	
+	public static Integer maximum(int[] list) {
+		if (list.length == 0) {
+			return null;
+		}
+		int max = list[0];
+		
+		for(int i = 1; i < list.length; i++) {
+			if (list[i] > max) {
+				max =  list[i];
+			}
+		}
+		
+		return max;
+		
+	}
+	
+	public static Integer maximumUsingList(List<Integer> list) {
+		if (list == null ||list.size() == 0) {
+			return null;
+		}
+		int max = list.get(0);
+		
+		for(int i = 1; i < list.size(); i++) {
+			if (list.get(i) > max) {
+				max =  list.get(i);
+			}
+		}
+		
+		return max;
+		
+	}
+
+	public static void main(String[] args) {
+		List<Integer> list = new ArrayList<Integer>(Arrays.asList(100, 3, 7, 1000, 8, 2, 80000));
+		int res = new Maximum().maximumUsingList(list);
+		System.out.println(res);
+	}
+
+}

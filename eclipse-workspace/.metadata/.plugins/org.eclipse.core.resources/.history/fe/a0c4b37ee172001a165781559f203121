@@ -1,0 +1,23 @@
+package learning;
+
+public class Maximum {
+	
+	public int maximum(int[] list) {
+		for(int i = 0; i <= (list.length - 1); i++) {
+			if (i > i+1) {
+				return i;
+			}
+			return(i + 1);
+		}
+		
+		return -1;
+		
+	}
+
+	public static void main(String[] args) {
+		int[] list = {3, 7, 10, 8, 2};
+		int res = new Maximum().maximum(list);
+		System.out.println(res);
+	}
+
+}

@@ -1,0 +1,17 @@
+package com.javaProject.functionalprogramming;
+
+import java.util.List;
+
+public class methodReferencesRunner {
+	
+	public static void main(String[] args) {
+		List.of("Ant", "Bat", "Cat", "Dog", "Elephant").stream()
+		.map(s -> s.length()).forEach(i -> System.out.println(i));
+	}
+
+	public static void main(String[] args) {
+		List.of("Ant", "Bat", "Cat", "Dog", "Elephant").stream()
+		.map(s -> s.length()).forEach(System.out::println);
+	}
+
+}

@@ -1,0 +1,31 @@
+
+public class BinarySearch {
+
+	public static int binarySearch(int[] arr, int x) {
+		int left = 0, right = arr.length - 1;
+		int middle = left + (right - left)/2;
+		
+		if(arr[middle] == x) {
+			return arr[middle];
+		}
+		
+		if (arr[middle] < x) {
+			left = middle + 1;
+		}
+		else {
+			right = middle - 1;
+		}
+		return -1;
+		
+	}
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int arr[] = {2, 3, 44, 10, 36};
+		int x = 10;
+		BinarySearch bs = new BinarySearch();
+		int res = bs.binarySearch(arr, x);
+		System.out.println(res);
+	}
+
+}

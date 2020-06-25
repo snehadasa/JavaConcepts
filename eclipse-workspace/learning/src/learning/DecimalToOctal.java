@@ -1,0 +1,25 @@
+package learning;
+
+public class DecimalToOctal {
+	
+	public static void decimalToOctal(int num) {
+		int[] octalNum = new int[100];
+		int i = 0;
+		//int octalNum = 0;
+		
+		while (num != 0) {
+			octalNum[i] = num%8;
+			num = num/8;
+			i++;
+		}
+		for (int j = i - 1; j >= 0; j--) 
+            System.out.print(octalNum[j]); 		
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int n = 41;
+		decimalToOctal(n);
+	}
+
+}

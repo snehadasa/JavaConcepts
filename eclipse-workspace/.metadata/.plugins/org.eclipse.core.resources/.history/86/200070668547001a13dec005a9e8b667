@@ -1,0 +1,12 @@
+package com.javaProject.primitive.datatypes;
+
+public class MyChar {
+	public MyChar(char ch) {
+		this.ch = ch;
+	}
+	
+	public boolean isVowel() {
+		return false;
+	}
+}
+

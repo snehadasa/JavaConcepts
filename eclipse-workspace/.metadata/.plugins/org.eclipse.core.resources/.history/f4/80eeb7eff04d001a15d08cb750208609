@@ -1,0 +1,37 @@
+package com.javaProject.generics;
+
+import java.util.LinkedList;
+import java.util.List;
+
+import com.javaProject.generics.MyCustomList;
+
+public class GenericRunner {
+	
+	static <X extends List> void duplicate (X list) {
+		list.addAll(list);
+	}
+
+	public static void main(String[] args) {
+		
+		LinkedList<Integer> numbers = new LinkedList(List.of(4,3,2));
+		 
+		MyCustomList<String> list = new MyCustomList<>();
+		list.addElement("element1");
+		list.addElement("element2");
+		String value = list.get(0);
+		
+		System.out.println(list);
+		System.out.println(value);
+
+		
+		MyCustomList<Integer> list2 = new MyCustomList<>();
+		list2.addElement(Integer.valueOf(5));
+		list2.addElement(Integer.valueOf(4));
+		Integer num = list2.get(0);
+		
+		System.out.println(list2);
+		System.out.println(num);
+
+	}
+
+}

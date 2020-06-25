@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;learning.BinaryToDecimal&apos; to &apos;BaseConversion&apos;&#x0A;- Original project: &apos;learning&apos;&#x0A;- Original element: &apos;learning.BinaryToDecimal&apos;&#x0A;- Renamed element: &apos;learning.BaseConversion&apos;&#x0A;- Update references to refactored element&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;BinaryToDecimal&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;learning{BinaryToDecimal.java[BinaryToDecimal" matchStrategy="1" name="BaseConversion" qualified="false" references="true" similarDeclarations="false" stamp="1585867016259" textual="false" version="1.0"/>
+</session>

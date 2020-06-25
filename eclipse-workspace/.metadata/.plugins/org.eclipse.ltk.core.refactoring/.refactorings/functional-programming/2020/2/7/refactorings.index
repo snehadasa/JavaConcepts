@@ -1,0 +1,8 @@
+1581613567070	Extract method 'printBasic'
+1581629335837	Extract method 'normalSum'
+1581629801959	Extract method 'fpSumOfOddNumbers'
+1581629831049	Extract method 'fpSumOfAllNumbers'
+1581629870547	Extract method 'printNumbersOfList'
+1581636385883	Rename type 'methodReferencesRunner'
+1581637299087	Extract local variable 'evenPredicate'
+1581637369987	Extract method 'evenPredicate'

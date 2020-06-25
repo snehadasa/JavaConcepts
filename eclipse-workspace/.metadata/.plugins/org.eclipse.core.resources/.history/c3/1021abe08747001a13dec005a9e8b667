@@ -1,0 +1,13 @@
+package com.javaProject.primitive.datatypes;
+
+public class MyCharRunner {
+
+	public static void main(String[] args) {
+		MyChar myChar = new MyChar('V');
+		System.out.println(myChar.isVowel());
+		System.out.println(myChar.isDigit());
+		System.out.println(myChar.isAlphabet());
+		//MyChar.printLowerCaseAlphabets();
+		//MyChar.printUpperCaseAlphabets();
+	}
+}

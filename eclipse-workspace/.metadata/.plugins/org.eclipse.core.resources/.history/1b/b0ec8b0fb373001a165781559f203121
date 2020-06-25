@@ -1,0 +1,12 @@
+package learning;
+
+public class MaxStockProfit {
+	
+	public int maxStockProfit(int[] prices);
+	
+	
+	public static void main(String[] args) {
+		
+	}
+
+}

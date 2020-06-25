@@ -1,0 +1,11 @@
+package loops;
+
+public class MyNumber {
+
+	private int number;
+	
+	public MyNumber(int number) {
+		this.number = number; 
+	}
+
+}

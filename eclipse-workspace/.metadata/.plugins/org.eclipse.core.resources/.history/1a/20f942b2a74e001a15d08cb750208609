@@ -1,0 +1,12 @@
+package com.javaProject.functionalprogramming;
+
+import java.util.List;
+
+public class FPNumberRunner {
+
+	public static void main(String[] args) {
+		List<Integer> num = List.of(1,4,6,5,3,7);
+		num.stream().forEach(n -> System.out.println(n));
+	}
+
+}

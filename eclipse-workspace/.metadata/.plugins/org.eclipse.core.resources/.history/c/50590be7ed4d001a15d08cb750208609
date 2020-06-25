@@ -1,0 +1,5 @@
+package com.javaProject.generics;
+
+public class MyCustomList {
+
+}

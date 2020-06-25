@@ -1,0 +1,10 @@
+package com.javaproject.concurrency;
+
+public class ConcurrentMapRunner {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

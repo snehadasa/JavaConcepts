@@ -1,0 +1,32 @@
+package com.javaProject.primitive.datatypes;
+
+public class MyChar {
+	
+	private char ch;
+	
+	public MyChar(char ch) {
+		this.ch = ch;
+	}
+	
+	public boolean isVowel() {
+		if (ch == 'a' || ch == 'e' || ch == 'i'|| ch == 'o'|| ch == 'u') {
+			return true;
+		}
+		return false;
+	}
+	
+	public boolean isDigit() {
+		if (ch >= 45 && ch <= 57) {
+			return true;
+		}
+		return false;
+	}
+	
+	public boolean isAlphabet() {
+		if (ch >= 'a' && ch <= 'z') {
+			return true;
+		}
+		return false;
+	}
+}
+

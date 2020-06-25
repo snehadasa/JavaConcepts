@@ -1,0 +1,15 @@
+package learning;
+
+public class AsciiValue {
+
+	public static void main(String[] args) {
+		
+		//char value = 0;
+		
+		for (char code = 'A'; code <= 'Z'; code++) {
+			System.out.println(code);
+		}
+		
+	}
+
+}

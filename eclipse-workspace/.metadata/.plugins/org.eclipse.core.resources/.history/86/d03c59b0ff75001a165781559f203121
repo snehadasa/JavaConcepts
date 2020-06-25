@@ -1,0 +1,16 @@
+package learning;
+
+public class AreaOfPoygon {
+
+	public static double polygonArea(double n) {	
+		return (n*s^2)/(4*Math.tan(Math.PI/n));
+	}
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int side = 6;
+		//int area = 0;
+		System.out.println(polygonArea(side));
+	}
+
+}

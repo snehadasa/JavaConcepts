@@ -1,0 +1,10 @@
+package com.javaProject.functionalprogramming;
+
+public class methodReferencesRunner {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

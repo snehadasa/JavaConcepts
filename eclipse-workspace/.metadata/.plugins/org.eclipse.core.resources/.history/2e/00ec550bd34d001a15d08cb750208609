@@ -1,0 +1,10 @@
+package com.javaProject.oops.level2.interfaces;
+
+public class FlyableRunner {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
