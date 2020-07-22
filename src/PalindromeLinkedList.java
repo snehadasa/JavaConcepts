@@ -27,6 +27,4 @@
 //        four.ptr = five;
 //        five.ptr = six;
 //        six.ptr = seven;
-//        boolean condition = isPalindromeLinkedList(one);
-//    }
-//}
+//        boolean condition = isPalindromeLinkedLi
